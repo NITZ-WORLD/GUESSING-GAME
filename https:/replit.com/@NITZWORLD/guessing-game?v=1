@@ -1,0 +1,11 @@
+import random as r
+print ("****WELCOME TO GUESSING GAME****")
+value=input("Guess a number between 1 - 10 : ")
+print(value)
+randomvalue = r.randrange(0,10)
+if value == randomvalue:
+  print("YOU WIN")
+  print(f"The guessed value is {randomvalue}")
+else:
+  print("Better luck next time")
+  print(f"The guessed value is {randomvalue}")
